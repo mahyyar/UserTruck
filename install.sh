@@ -10,7 +10,7 @@ SETTINGS_FILE="$INSTALL_DIR/config/settings.py"
 COMPOSE_FILE="$INSTALL_DIR/docker-compose.yml"
 DATA_DIR="$INSTALL_DIR/data"
 DB_FILE="$DATA_DIR/database.db"
-REPO_URL="https://github.com/YOUR_USERNAME/UserTurk.git"
+REPO_URL="https://github.com/mahyyar/UserTurk.git"
 PROJECT_NAME="userturk"
 
 
