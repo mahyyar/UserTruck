@@ -1,0 +1,4 @@
+aiogram==3.4.1
+pytz
+apscheduler==3.10.4
+python-dotenv

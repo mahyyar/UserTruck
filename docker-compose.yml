@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  userturk:
+    container_name: userturk_bot
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ./data:/app/data
+    environment:
+      PYTHONUNBUFFERED: "1"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
